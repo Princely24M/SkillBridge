@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none" role="img" aria-label="SkillBridge Logo">
+  <defs>
+    <linearGradient id="sbGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#123B5D" />
+      <stop offset="60%" stop-color="#0F8B8D" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4C95D" />
+      <stop offset="100%" stop-color="#E59819" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#123B5D" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  <!-- Icon: Bridge & Upward Pathway -->
+  <g transform="translate(6, 6)" filter="url(#shadow)">
+    <!-- Bridge Support Base Left -->
+    <rect x="2" y="36" width="6" height="14" rx="3" fill="#123B5D" />
+    <!-- Bridge Support Base Right -->
+    <rect x="42" y="36" width="6" height="14" rx="3" fill="#123B5D" />
+    
+    <!-- Lower Arch -->
+    <path d="M5 40 C 16 26, 34 26, 45 40" stroke="#123B5D" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.3" />
+    
+    <!-- Ascending Bridge Pathway -->
+    <path d="M5 38 C 14 38, 22 24, 32 16 C 38 11, 44 8, 48 6" stroke="url(#sbGradient)" stroke-width="5.5" stroke-linecap="round" fill="none" />
+    
+    <!-- Pathway Nodes -->
+    <circle cx="5" cy="38" r="4.5" fill="#123B5D" />
+    <circle cx="23" cy="25" r="4" fill="#0F8B8D" />
+    <circle cx="48" cy="6" r="6" fill="url(#accentGradient)" stroke="#FFFFFF" stroke-width="2.5" />
+    
+    <!-- Energy / Growth Ray -->
+    <path d="M37 6 L44 6 L44 13" stroke="#F4C95D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(68, 42)">
+    <text font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="800" font-size="28" letter-spacing="-0.5">
+      <tspan fill="#123B5D" class="logo-text-primary">Skill</tspan><tspan fill="#0F8B8D">Bridge</tspan>
+    </text>
+    <text x="1" y="14" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="600" font-size="9" fill="#5A6A80" letter-spacing="1.2">
+      YOUTH OPPORTUNITY PLATFORM
+    </text>
+  </g>
+</svg>

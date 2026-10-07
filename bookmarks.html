@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saved Opportunities | SkillBridge</title>
+  <meta name="description" content="Review the opportunities you have bookmarked and keep track of roles you want to revisit later.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="SkillBridge Home">
+        <img src="images/logo.svg" alt="SkillBridge Logo" class="brand-logo-img">
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Desktop Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="opportunities.html" class="nav-link">Opportunities</a>
+        <a href="resources.html" class="nav-link">Career Resources</a>
+        <a href="contact.html" class="nav-link">Contact &amp; Report</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="bookmarks.html" class="bookmark-nav-link" aria-label="View saved opportunities" aria-current="page">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span class="bookmark-nav-label sr-only">Saved</span>
+          <span class="bookmark-count-badge" aria-live="polite">0</span>
+        </a>
+
+        <a href="opportunities.html" class="btn btn-primary btn-sm" id="nav-desktop-cta">
+          Explore Opportunities
+        </a>
+
+        <button class="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation-drawer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-navigation-drawer" class="mobile-drawer" aria-label="Mobile Navigation">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="opportunities.html" class="mobile-nav-link">Opportunities</a>
+        <a href="resources.html" class="mobile-nav-link">Career Resources</a>
+        <a href="contact.html" class="mobile-nav-link">Contact &amp; Report</a>
+      </nav>
+      <div class="mobile-drawer-cta">
+        <a href="bookmarks.html" class="btn btn-outline btn-block">Saved Opportunities</a>
+        <a href="opportunities.html" class="btn btn-secondary btn-block">Explore Opportunities</a>
+        <a href="resources.html" class="btn btn-outline btn-block">Career Resources</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="section">
+    <div class="container">
+      <div class="section-header text-left" style="margin-bottom: 2rem;">
+        <span class="section-badge">Saved Opportunities</span>
+        <h1 class="section-title">Your bookmarked opportunities</h1>
+        <p class="section-subtitle" id="saved-opportunities-count">0 saved</p>
+      </div>
+
+      <section class="opportunities-grid" id="saved-opportunities-container" aria-live="polite"></section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand-block">
+        <img src="images/logo.svg" alt="SkillBridge Logo" class="footer-logo">
+        <p class="footer-text">Helping South African youth discover trusted opportunities and practical career support.</p>
+      </div>
+      <div class="footer-disclaimer-box">
+        <strong class="footer-disclaimer-highlight">Demo Platform Disclaimer:</strong>
+        <p>SkillBridge is a demo platform for learning and exploration. Verify all programme details with the official source before applying.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

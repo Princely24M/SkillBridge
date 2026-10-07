@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#123B5D" />
+      <stop offset="60%" stop-color="#0F8B8D" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#123B5D" />
+  <!-- Bridge and Arch -->
+  <path d="M12 48 C 22 36, 42 36, 52 48" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.3" />
+  <path d="M12 46 C 22 46, 32 32, 44 20 C 49 15, 54 13, 56 12" stroke="url(#favGradient)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="14" cy="46" r="4.5" fill="#FFFFFF" />
+  <circle cx="34" cy="30" r="4" fill="#2DD4BF" />
+  <circle cx="54" cy="14" r="5.5" fill="#F4C95D" stroke="#FFFFFF" stroke-width="2" />
+</svg>
